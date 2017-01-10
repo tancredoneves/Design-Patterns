@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class CalculadorDeImpostos
+    class ICMS : Imposto
     {
-        public void RealizaCalculo(Orcamento orcamento, Imposto imposto)
+        public double Calcula(Orcamento orcamento)
         {
-            double icms = imposto.Calcula(orcamento);
-
+            return orcamento.Valor * 0.1;
         }
-
     }
 }

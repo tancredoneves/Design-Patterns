@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Orcamento
+    public class Orcamento
     {
         public double Valor { get; private set; }
 
