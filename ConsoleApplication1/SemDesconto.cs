@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public class CalculadorDeImpostos
+    class SemDesconto : Desconto
     {
-        public void RealizaCalculo(Orcamento orcamento, Imposto imposto)
+        public Desconto Proximo { get; set; }
+
+        public double Desconta(Orcamento orcamento)
         {
-            double icms = imposto.Calcula(orcamento);
+            
+                return 0;
+           
         }
     }
 }
