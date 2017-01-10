@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class ISS : Imposto
+    public interface Imposto
     {
-        public double Calcula(Orcamento orcamento)
-        {
-            return orcamento.Valor * 0.6;
-        }
+        double Calcula(Orcamento orcamento);
     }
 }
