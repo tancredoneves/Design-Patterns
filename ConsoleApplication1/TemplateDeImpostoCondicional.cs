@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     public abstract class TemplateDeImpostoCondicional : Imposto
     {
         //Templete method
-        public double Calcula(Orcamento orcamento)
+        public override double Calcula(Orcamento orcamento)
         {
             if (DeveUsarMaximaTaxacao(orcamento))
             {
