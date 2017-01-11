@@ -10,7 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-
+            //Decorator
+           // Imposto iss = new ISS(new ICMS(new ICPP()));
 
         }
     }
