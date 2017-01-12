@@ -4,8 +4,6 @@ namespace ConsoleApplication1
 {
     public class Item
     {
-        
-
         public String Nome { get; private set; }
         public double Valor { get; private set; }
 

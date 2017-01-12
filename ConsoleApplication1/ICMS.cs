@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class ICMS : Imposto
+   public class ICMS : Imposto
     {
         public ICMS(Imposto outroImposto) : base(outroImposto) { }
         public ICMS() : base() { }
